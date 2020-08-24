@@ -26,8 +26,8 @@
 | name      | string    | null: false |
 | category  | integer   | null: false |             |
 | status    | integer   | null: false | 
-| fee       | string    | null: false |
-| size      | string    | null: false |
+| fee       | integer   | null: false |
+| size      | integer   | null: false |
 | text      | text      | null: false |
 | img       | string    | null: false |
 | price     | integer   | null: false |
@@ -48,7 +48,7 @@
 | prefecture                   | integer    | null: false |
 | city                         | string     | null: false |
 | house_number                 | string     | null: false |
-| building_name                | string     | null: false |
+| building_name                | string     | 　　　　　　　|
 | phone_number                 | string     | unique: true |
 | trade_information            | references | null: false, foreign_key: true |
 
