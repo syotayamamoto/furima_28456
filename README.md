@@ -31,8 +31,8 @@
 | text      | text      | null: false |
 | img       | string    | null: false |
 | price     | integer   | null: false |
-| address   | string    | null: false |
-| days      | string    | null: false |
+| address   | integer   | null: false |
+| days      | integer   | null: false |
 | user      | reference | foreign_key: true  |
 
 ### association
@@ -49,8 +49,6 @@
 | house_number                 | string     | null: false |
 | building_name                | string     | null: false |
 | phone_number                 | string     | unique: true |
-| user                         | references | null: false, foreign_key: true |
-| item                         | references | null: false, foreign_key: true |
 | trade_information            | references | null: false, foreign_key: true |
 
 ### association
